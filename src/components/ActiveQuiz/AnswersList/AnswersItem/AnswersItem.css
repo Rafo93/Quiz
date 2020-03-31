@@ -1,0 +1,35 @@
+.AnswersItem {
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.AnswersItem:hover {
+    background: rgb(255, 255, 255, .2);
+    transition: background .3s ease-in-out;
+}
+
+.AnswersItemSuccess {
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: rgb(161, 240, 69, .7);
+}
+
+.AnswersItemError {
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: rgb(240, 87, 108, .7);
+}
+
+
